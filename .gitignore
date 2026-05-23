@@ -1,0 +1,13 @@
+# Artefatos de build
+**/target/
+
+# Cargo.lock — descomente a linha abaixo SOMENTE se for uma biblioteca
+# Cargo.lock
+
+# Arquivos de IDE/editor
+.idea/
+.vscode/
+*.swp
+
+# Sistema operacional
+.DS_Store
