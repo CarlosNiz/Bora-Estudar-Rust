@@ -1,0 +1,15 @@
+cargo new <nome-do-projeto>          -> cria um novo projeto
+
+cargo build                          -> compila o projeto
+
+./target/debug/<nome-do-projeto>     -> executa o binário gerado pelo build
+
+cargo run                            -> compila e executa
+
+cargo check                          -> verifica se o código compila sem produzir um executável
+
+cargo build --release                -> compila com otimizações para produção
+
+cargo update                         -> atualiza as dependências no arquivo Cargo.lock para a versão mais recente
+
+cargo doc --open                     -> constrói a documentação fornecida por todas as suas dependências localmente e a abre no navegador
